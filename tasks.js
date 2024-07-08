@@ -275,7 +275,7 @@
 // const symbols = (array) => {
 //   const newArr = array.filter((item) => {
 //     if (item.length > 3) {
-//       return item;
+//       return true;
 //     }
 //   });
 //   return newArr;
@@ -321,7 +321,7 @@
 //   });
 //   const newHumanAge = humanAge.filter((item, index) => {
 //     if (item >= 18) {
-//       return item;
+//       return true;
 //     }
 //   });
 //   const AverageHumanAge = newHumanAge.reduce((acc, item) => {
